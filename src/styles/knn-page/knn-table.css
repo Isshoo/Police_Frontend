@@ -1,0 +1,33 @@
+.knn-table {
+  background-color: var(--main-bg);
+  color: var(--primary-text);
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem 1rem;
+}
+
+.knn-table h4 {
+  font-size: 1.1rem;
+  border-bottom: 2px solid var(--form-border);
+  padding-bottom: 0.5rem;
+}
+
+
+.knn-table thead th {
+  padding: 0.7rem 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.knn-table tbody td {
+  padding: 0.65rem 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
+.knn-table tbody td.justify {
+  padding: 0.65rem 1rem;
+  text-align: justify;
+  font-size: 0.85rem;
+}

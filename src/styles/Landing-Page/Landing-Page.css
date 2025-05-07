@@ -1,0 +1,56 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--main-bg);
+  color: var(--primary-text);
+  text-align: center;
+  padding: 2rem;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+  gap: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo svg {
+  width: 140px;
+  height: 140px;
+  color: var(--form-label);
+}
+
+.tagline {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--form-label);
+}
+
+.landing-buttons button {
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--add-btn-bg);
+  color: var(--add-icon);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+  box-shadow: -1px 1px 5px 3px var(--add-btn-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landing-buttons button:hover {
+  background-color: var(--add-icon);
+  box-shadow: -2px 2px 5px 5px var(--add-btn-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: var(--add-btn-bg);
+}

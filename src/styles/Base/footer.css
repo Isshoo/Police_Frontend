@@ -1,0 +1,23 @@
+
+
+footer {
+  width: 100%;
+  transition: background-color 0.3s ease;
+  background-color: var(--footer-background);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+.footer-bar {
+  color: var(--footer-text);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-footer {
+  text-align: center;
+}

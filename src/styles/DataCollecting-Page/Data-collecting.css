@@ -1,0 +1,68 @@
+.dataset-container-selected{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.dataset-container-selected-upper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.7);
+  border-radius: 16px;
+  flex: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  z-index: 999;
+}
+
+.dataset-box {
+  padding: 0.5rem 1rem;
+  min-width: 300px;
+  background-color: var(--form-background);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+
+}
+
+.dataset-container-selected-lower {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+  flex: 1;
+}
+
+
+.dataset-container-not-selected {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.not-selected-list-dataset {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.not-selected-upload {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

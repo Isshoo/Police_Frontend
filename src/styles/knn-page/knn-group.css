@@ -1,0 +1,40 @@
+.knn-info-first {
+  margin-top: 0.25rem;
+  font-size: 0.92rem;
+  line-height: 1.3rem;
+}
+.knn-info {
+  font-size: 0.92rem;
+  margin: 0.15rem 0;
+}
+.knn-info.last {
+ margin-bottom: 0.35rem;
+}
+
+.knn-group {
+  padding: 1rem 1.5rem;
+  background-color: var(--background);
+  border-radius: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--form-border);
+  margin: 0.5rem 0;
+}
+
+.knn-group-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 0.25rem;
+}
+
+.knn-group h3 {
+  display: inline;
+  font-size: 1.25rem;
+  border-bottom: 2px solid var(--form-border);
+  padding-bottom: 0.25rem;
+}
+
+.knn-group p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}

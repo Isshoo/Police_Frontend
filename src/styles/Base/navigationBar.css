@@ -1,0 +1,84 @@
+
+.navigation-bar {
+  width: 100%;
+  padding-block: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--main-bg);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 2px 0px 0px var(--nav-shadow);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding-inline: 32px;
+  height: 79px;
+}
+.navigation-bar.user-nav {
+  max-width: 1100px;
+  padding-block: 1.75rem 1.25rem;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1200px;
+}
+
+.navigation li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--nav-text);
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+.nav-button:hover {
+  opacity: 1;
+}
+.nav-button.active {
+  font-weight: 500;
+  opacity: 1;
+}
+
+.nav-link-con {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.nav-icon {
+    font-size: 1.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.nav-button.user-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 160px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--side-bg);
+  color: var(--side-text);
+  cursor: pointer;
+  opacity: 0.7;
+  border: 1px solid var(--nav-border);
+  min-height: 41px;
+  box-shadow: -2px 2px 1px 1px var(--add-btn-shadow);
+}
+.nav-button.user-nav:hover,
+.nav-button.user-nav.active:hover {
+   opacity: 1;
+}
+.nav-button.user-nav.active {
+  opacity: 0.9;
+}

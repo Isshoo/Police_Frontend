@@ -1,0 +1,67 @@
+.confusion-matrix {
+  background-color: var(--background);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--form-border);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: start;
+  justify-content: flex-start;
+}
+
+.confusion-matrix h3 {
+  font-size: 1.2rem;
+  color: var(--primary-text);
+}
+
+.confusion-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  table-layout: fixed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confusion-table td {
+  border: 1px solid var(--form-border);
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  color: var(--primary-text);
+  font-size: 0.85rem;
+}
+.confusion-table th {
+  border: 1px solid var(--form-border);
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.confusion-table thead {
+  background-color: var(--nav-bg);
+  color: var(--header-text);
+}
+
+.confusion-table .label-header {
+  border-right: 1px solid #444;
+}
+.confusion-table .predicted-header {
+  border-bottom: 1px solid #444;
+}
+
+.confusion-table .actual-header {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  vertical-align: middle;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.confusion-table .empty-cell {
+  border: none;
+  background: transparent;
+}

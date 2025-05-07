@@ -1,0 +1,182 @@
+/* Buat item pertama menonjol di grid */
+.container-list-item .model-card:first-child {
+  /* grid-column: 1 / -1; 
+  border-left: 6px solid var(--submit-bg);
+  background: linear-gradient(to right, var(--main-bg) 0%, #1f293710 100%); */
+  
+  position: relative;
+  /* padding: 3rem 2rem 1.5rem; */
+}
+
+.container-list-item .model-card:first-child::before {
+  content: 'Latest Model';
+  position: absolute;
+  top: -0.5rem;
+  left: 20%;
+  transform: translateX(-50%);
+  background-color: var(--submit-bg);
+  color: var(--submit-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* 
+
+
+.container-list-item .model-card:first-child .model-body {
+  font-weight: 500;
+  font-size: 1rem;
+  max-width: 500px;
+}
+ */
+
+
+.model-card {
+  border-left: 6px solid var(--submit-bg);
+  border-bottom: 2px solid var(--submit-bg);
+  background-color: var(--main-bg);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--primary-text);
+}
+
+.model-card:hover {
+  transform: translateY(-3px);
+}
+
+.model-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.model-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.model-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  cursor: pointer;
+}
+
+.model-title:hover {
+  text-decoration: underline;
+}
+
+.model-edit-input {
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: var(--form-background);
+  color: var(--primary-text);
+  border-bottom: 1px solid var(--form-border);
+}
+
+.model-date {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.model-accuracy {
+  font-size: 0.95rem;
+  background-color: var(--submit-bg);
+  color: var(--submit-text);
+  padding: 0.35rem 0.8rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.model-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.model-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.model-section-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.model-section-details div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.model-section-details div p {
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.model-section-details div p.model-sub-title {
+  font-size: 0.9rem;
+  flex: 0.6;
+}
+
+.model-created {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 0.25rem;
+}
+
+.model-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+.model-footer button{
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  box-shadow: -2px 2px 5px 1px var(--add-btn-shadow);
+}
+
+.btn-detail {
+  background-color: var(--submit-bg);
+  color: var(--submit-text);
+}
+.btn-detail:hover {
+  background-color: black;
+}
+
+.btn-classify {
+  background-color: var(--submit-text);
+  color: var(--submit-bg);
+  border: 1px solid var(--submit-bg);
+}
+.btn-classify:hover {
+  background-color: var(--submit-bg-hover);
+  color: var(--submit-text);
+}
+
+/* .btn-delete {
+  background-color: #ef4444;
+  color: white;
+}
+.btn-delete:hover {
+  background-color: #dc2626;
+} */
