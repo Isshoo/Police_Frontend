@@ -22,14 +22,14 @@
 
 .user-msg {
   background-color: var(--input-background);
-  color: var(--submit-text);
+  color: var(--results-text);
   align-self: flex-end;
   border-bottom-right-radius: 0;
 }
 
 .ai-msg {
   background-color: var(--form-border);
-  color: var(--form-title);
+  color: var(--results-text);
   align-self: flex-start;
   border-bottom-left-radius: 0;
 }

@@ -1,156 +1,146 @@
 :root {
   /* Typography */
-  --primary-text: #212631;
+  --primary-text: #ffd700;           
   --secondary-text: #ffffff;
-  --notfound-text: #fff;
+  --notfound-text: #ffd700;
   --results-text: #ffffff;
 
   /* Layout Backgrounds */
-  --background: #0a0e15;
-  --main-bg: #13161c;
+  --background: #1e2022;
+  --main-bg: #2a2c2f;
 
   /* Header */
-  --header-background: #212631;
-  --header-text: #f0f1f5;
+  --header-background: #1e2022;
+  --header-text: #ffd700;
 
   /* Navbar */
-  --navbar-bg: #e0e4eb;
-  --nav-text: #ffffff;
-  --nav-bg: #212631;
-  --nav-border: #212631;
-  --nav-bg-hover: #0a0e15;
-  --nav-bg-act: #4e576a;
-  --nav-active-bg: #0a0e15;
-  --nav-shadow: rgba(69, 69, 69, 0.2);
-  --navigation-bg: #13161c;
+  --navbar-bg: #2a2c2f;
+  --nav-text: #ffd700;
+  --nav-bg: #1e2022;
+  --nav-border: #c1801e;
+  --nav-bg-hover: #2f3033;
+  --nav-bg-act: #c1801e;
+  --nav-active-bg: #c1801e;
+  --nav-shadow: rgba(0, 0, 0, 0.3);
+  --navigation-bg: #1e2022;
 
   /* Sidebar */
-  --sidebar-bg: #101319;
-  --side-text: #ffffff;
-  --side-bg: #212631;
-  --side-border: #212631;
-  --side-bg-hover: #0a0e15;
-  --side-bg-act: #4e576a;
-  --side-active-bg: #0a0e15;
-  --side-shadow: rgba(69, 69, 69, 0.2);
+  --sidebar-bg: #1e2022;
+  --side-text: #fff;
+  --side-bg: #2a2c2f;
+  --side-border: #c1801e;
+  --side-bg-hover: #343639;
+  --side-bg-act: #c1801e;
+  --side-active-bg: #c1801e;
+  --side-shadow: rgba(0, 0, 0, 0.3);
 
   /* Logout */
-  --logout-text: #000;
-  --logout-text-hover: #899eff;
+  --logout-text: #ffd700;
+  --logout-text-hover: #c1801e;
 
   /* Form */
-  --form-background: #0a0e15;
-  --form-border: #212631;
-  --form-title: #ffffff;
+  --form-background: #2a2c2f;
+  --form-border: #c1801e;
+  --form-title: #ffd700;
   --form-label: #ffffff;
-  --input-background: #e0e4eb;
-  --input-text: #212631;
-  --input-text-thread: #fff;
-  --input-placeholder-thread: #e0e4eb;
-  --input-focus: #93a7ff;
-  --submit-text: #212631;
-  --submit-bg: #f0f1f5f1;
-  --submit-bg-hover: #ffffff;
-  --submit-bg-act: #ffffff;
+  --input-background: #1e2022;
+  --input-text: #ffd700;
+  --input-text-thread: #ffd700;
+  --input-placeholder-thread: #ffd70080;
+  --input-focus: #c1801e;
+  --submit-text: #1e2022;
+  --submit-bg: #ffd700;
+  --submit-bg-hover: #ffe866;
+  --submit-bg-act: #c1801e;
 
   /* Footer */
-  --footer-background: #212631;
-  --footer-text: #f0f1f5;
+  --footer-background: #1e2022;
+  --footer-text: #ffd700;
 
   /* Spinner */
-  --spin-line: rgb(255, 255, 255);
-  --spin-shadow: rgba(0, 0, 0, 0.2);
+  --spin-line: #ffd700;
+  --spin-shadow: rgba(0, 0, 0, 0.3);
 
   /* Select Model */
-  --select-model-background: #212631;
-  --select-model-text: #f0f1f5;
-  --select-model-border: #374151;
-  --select-model-hover: #2a2f3c;
+  --select-model-background: #2a2c2f;
+  --select-model-text: #ffd700;
+  --select-model-border: #c1801e;
+  --select-model-hover: #3a3c3f;
 
+  /* Buttons */
+  --add-btn-bg: #ffd700;
+  --add-btn-bg-hover: #ffe866;
+  --add-btn-shadow: rgba(255, 255, 255, 0.1);
+  --add-icon: #1e2022;
+  --add-icon-hover: #c1801e;
 
-  --add-btn-bg: #ffffff;
-  --add-btn-bg-hover: #101217;
-  --add-btn-shadow: rgba(125, 125, 125, 0.305);
-  --add-icon: #101217;
-  --add-icon-hover: #ffffff;
-
-
+  /* Dataset Info */
   --dataset-info: "Dataset Information";
   --upload-new-dataset-info: "Upload New Dataset";
   --classify-new-csv: "Set New Data";
 }
 
 [data-theme="light"] {
-  /* Typography */
-  --primary-text: #212631;
+  --primary-text: #1e2022;
   --secondary-text: #ffffff;
-  --notfound-text: #212631;
-  --results-text: #212631;
+  --notfound-text: #1e2022;
+  --results-text: #1e2022;
 
-  /* Layout Backgrounds */
-  --background: #f4f4f5;
-  --main-bg: #ffffff;
+  --background: #ffffff;
+  --main-bg: #f4f4f4;
 
-  /* Header */
-  --header-background: #212631;
-  --header-text: #f0f1f5;
+  --header-background: #ffd700;
+  --header-text: #1e2022;
 
-  /* Navbar */
   --navbar-bg: #ffffff;
-  --nav-text: #000;
-  --nav-bg: #212631;
-  --nav-border: #212631;
-  --nav-bg-hover: #0a0e15;
-  --nav-bg-act: #4e576a;
-  --nav-active-bg: #212631;
+  --nav-text: #1e2022;
+  --nav-bg: #ffd700;
+  --nav-border: #c1801e;
+  --nav-bg-hover: #ffe866;
+  --nav-bg-act: #c1801e;
+  --nav-active-bg: #c1801e;
   --nav-shadow: rgba(0, 0, 0, 0.2);
-  --navigation-bg: rgba(255, 255, 255, 0.5);
+  --navigation-bg: rgba(255, 255, 255, 0.8);
 
-  /* Sidebar */
-  --sidebar-bg: #e6e6e6;
-  --side-text: #ffffff;
-  --side-bg: #212631;
-  --side-border: #212631;
-  --side-bg-hover: #0a0e15;
-  --side-bg-act: #4e576a;
-  --side-active-bg: #212631;
+  --sidebar-bg: #f4f4f4;
+  --side-text: #1e2022;
+  --side-bg: #ffd700;
+  --side-border: #c1801e;
+  --side-bg-hover: #ffe866;
+  --side-bg-act: #c1801e;
+  --side-active-bg: #ffe866;
   --side-shadow: rgba(0, 0, 0, 0.2);
 
-  /* Logout */
-  --logout-text: #000;
-  --logout-text-hover: #899eff;
+  --logout-text: #1e2022;
+  --logout-text-hover: #c1801e;
 
-  /* Form */
   --form-background: #ffffff;
-  --form-border: #21263120;
-  --form-title: #000000;
-  --form-label: #0a0e15;
-  --input-background: #212631d7;
-  --input-text-thread: #212631;
-  --input-placeholder-thread: #2126319a;
-  --input-focus: #93a7ff;
-  --submit-text: #ffffff;
-  --submit-bg: #212631;
-  --submit-bg-hover: #000000;
-  --submit-bg-act: #f0f1f5;
+  --form-border: #c1801e50;
+  --form-title: #1e2022;
+  --form-label: #1e2022;
+  --input-background: #ffd700;
+  --input-text-thread: #1e2022;
+  --input-placeholder-thread: #1e202280;
+  --input-focus: #c1801e;
+  --submit-text: #ffd700;
+  --submit-bg: #1e2022;
+  --submit-bg-hover: #343639;
+  --submit-bg-act: #c1801e;
 
-  /* Footer */
-  --footer-background: #212631;
-  --footer-text: #f0f1f5;
+  --footer-background: #ffd700;
+  --footer-text: #1e2022;
 
-  /* Spinner */
-  --spin-line: rgb(0, 0, 0);
-  --spin-shadow: rgba(255, 255, 255, 0.2);
+  --spin-line: #1e2022;
+  --spin-shadow: rgba(255, 255, 255, 0.3);
 
-  /* Select Model */
-  --select-model-background: #fff;
-  --select-model-text: #212631;
-  --select-model-border: #cbd5e1;
-  --select-model-hover: #e5e7eb;
+  --select-model-background: #ffffff;
+  --select-model-text: #1e2022;
+  --select-model-border: #c1801e;
+  --select-model-hover: #ffe866;
 
-  --add-btn-bg: #101217;
-  --add-btn-bg-hover: #ffffff;
-  --add-btn-shadow: rgba(0, 0, 0, 0.305);
-  --add-icon: #ffffff;
-  --add-icon-hover: #101217;
+  --add-btn-bg: #1e2022;
+  --add-btn-bg-hover: #343639;
+  --add-btn-shadow: rgba(0, 0, 0, 0.2);
+  --add-icon: #ffd700;
+  --add-icon-hover: #ffffff;
 }
