@@ -103,7 +103,7 @@ const ClassifyInput = ({
               id='threadsSubmit'
               disabled={loading}
             >
-              {locale === 'EN' ? 'Classify' : 'Klasifikasi'}
+              {locale === 'EN' ? 'Analyze' : 'Klasifikasi'}
             </button>
           </div>
         </div>

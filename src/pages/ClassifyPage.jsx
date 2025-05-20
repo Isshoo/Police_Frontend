@@ -129,7 +129,7 @@ const ClassifyPage = () => {
           </AnimatePresence>
         </div>
       </div>
-      <p className='copyright'> &copy; Copyright Kelompok 5</p>
+      <p className='copyright'> &copy; Copyright Batam</p>
     </Pages>
   );
 };

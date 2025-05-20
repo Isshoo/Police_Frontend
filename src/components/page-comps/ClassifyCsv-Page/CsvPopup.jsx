@@ -138,7 +138,7 @@ const CsvPopup = ({
                 csvData.some((row) => row.contentSnippet == '')
               }
             >
-              {loading ? 'Classifying...' : 'Classify CSV'}
+              {loading ? 'Analyzing...' : 'Analyze CSV'}
             </button>
           </div>
         </div>
