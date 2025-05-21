@@ -22,7 +22,11 @@ const ClassifyPage = () => {
 
   const inputAtBottom = !!predictionResults?.length;
 
-  const suggestions = ['Polisi baik', 'kepolisian bertugas untuk menjaga', 'Polisi Bangsat!!!!'];
+  const suggestions = [
+    'Polisi baik',
+    'kepolisian bertugas untuk menjaga',
+    'Polisi SANGAT JAHAT!!!!',
+  ];
 
   useEffect(() => {
     if (firstRun.current) {
